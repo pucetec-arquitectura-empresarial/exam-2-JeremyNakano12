@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "c860fb01-1cbb-44a1-b3a3-1281f73d376c",
+		"name": "Parcial 2 examen",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40432466"
+	},
+	"item": [
+		{
+			"name": "Availability",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/parkings/availability",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"parkings",
+						"availability"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Entry",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/entry",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"entry"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Exit",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/exit/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"exit",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
